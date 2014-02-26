@@ -1,11 +1,13 @@
 #!/bin/bash
 # Bacula 5.2.13 Install on Debian Wheezy
 # Author: John McCarthy
+# <http://www.midactstech.blogspot.com> <https://www.github.com/Midacts>
 # Date: 30th of December, 2013
+# Version 1.0
 #
 # To God only wise, be glory through Jesus Christ forever. Amen.
 # Romans 16:27, I Corinthians 15:1-4
-#------------------------------------------------------
+#---------------------------------------------------------------
 ######## FUNCTIONS ########
 function baculaInstall()
 {
@@ -1878,6 +1880,7 @@ function doAll()
             \e[01;37;42mWell done! You have completed your Bacula Installation!\e[0m
 
              \e[01;37;42mProceed to your Bacula web UI, http://fqdn/bacula-web\e[0m
+  \e[30;01mCheckout similar material at midactstech.blogspot.com and github.com/Midacts\e[0m
 
 
                             \e[01;37m########################\e[0m
