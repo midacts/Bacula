@@ -8,6 +8,8 @@
 # To God only wise, be glory through Jesus Christ forever. Amen.
 # Romans 16:27, I Corinthians 15:1-4
 #---------------------------------------------------------------
+######## VARIABLES ########
+bacula_ver=7.0.0
 ######## FUNCTIONS ########
 function baculaInstall()
 {
@@ -24,14 +26,14 @@ function baculaInstall()
 		echo ''
 		echo -e '\e[01;34m+++ Downloading the Latest Bacula installation files...\e[0m'
 		echo ''
-		wget http://sourceforge.net/projects/bacula/files/bacula/5.2.13/bacula-5.2.13.tar.gz
+		wget http://sourceforge.net/projects/bacula/files/bacula/$bacula_ver/bacula-$bacula_ver.tar.gz
 		echo -e '\e[01;37;42mThe Bacula installation files were successfully downloaded!\e[0m'
 
 	# Untarring the Bacula Files
 		echo ''
 		echo -e '\e[01;34m+++ Untarrring the Bacula installation files...\e[0m'
-		tar xzf bacula-5.2.13.tar.gz
-		cd bacula-5.2.13
+		tar xzf bacula-$bacula_ver.tar.gz
+		cd bacula-$bacula_ver
 		echo ''
 		echo -e '\e[01;37;42mThe Bacula installation files were successfully untarred!\e[0m'
 
