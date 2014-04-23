@@ -9,7 +9,7 @@
 # Romans 16:27, I Corinthians 15:1-4
 #---------------------------------------------------------------
 ######## VARIABLES ########
-bacula_ver=7.0.0
+bacula_ver=7.0.2
 ######## FUNCTIONS ########
 function baculaInstall()
 {
